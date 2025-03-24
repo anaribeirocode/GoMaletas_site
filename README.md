@@ -2,7 +2,8 @@
 
 Este repositório contém o código-fonte do site **GoMaletas**, desenvolvido como parte do curso de **Desenvolvimento Web** na **Universidade de Vassouras**. O objetivo do projeto foi criar um site fictício especializado na venda e revenda de **maletas**, com um design moderno, interativo e responsivo.  
 
-![image](https://github.com/user-attachments/assets/df5bfd1a-621e-4f24-935e-84b5a323cc9a)
+![image](https://github.com/user-attachments/assets/73946f20-538d-4cf3-a1f3-a8e214bdd8a7)
+
 
 ---
 
