@@ -207,3 +207,15 @@
     font-weight: lighter;
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 1170px) {
+    .head i {
+        font-size: 30px;
+        padding: 2px;
+    }
+
+    .head span {
+        font-size: 28px;
+        padding: 2px;
+    }
+}
