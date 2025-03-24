@@ -1,0 +1,117 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+    background-color: #1B140C;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#cta .onetitle {
+    font-size: 1.75rem;
+    color: #e9cb92;
+    line-height: 1.0;
+    margin-top: 10px;
+}
+
+#cta .twotitle {
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.0;
+    margin-bottom: 20px;
+}
+
+#cta .twotitle span {
+    color: #C28B04;
+}
+
+.btn-cta {
+    color: #1d1d1d;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #CFB594;
+    border-radius: 5px;
+    padding: 5px 14px;
+    box-shadow: 0px 0px 10px 2px #6e5234;
+    transition: all .3s ease;
+}
+
+.btn-cta:hover {
+    background-color: rgb(187, 161, 15);
+    color: #fff;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+.shape {
+    background-color: #48311F;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0% 0% 0% 80%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+    z-index: 2;
+    width: 10px;
+}
+
+.down i {
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+.down i:hover {
+    background-color: #C28B04;
+    color: #1d1d1d;
+    border: 2px solid #C28B04;
+    transition: all .42s ease;
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img, #home .shape {
+        position: relative;
+        display: none;
+        z-index: 2;
+    }
+
+    #cta, .bnt-cta {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+    }
+}

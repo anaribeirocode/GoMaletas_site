@@ -1,0 +1,119 @@
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 2px;
+    background-color: #48311F;
+    margin-top: 40px;
+}
+
+.heading span {
+    color: #fff;   
+}
+
+.sobre .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 4.5rem;
+}
+
+.sobre .row .image-conteiner {
+    flex: 1 1 .20rem;
+    position: relative;
+}
+
+.sobre .row .image-conteiner img {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #fff;
+    box-shadow: 0px 0px 12px 0.1px;
+    object-fit: cover;
+}
+
+.sobre .row .image-conteiner h3 {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 20px;
+    background: #fff;
+    color: #413022;
+    width: 100%;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sobre .row .content {
+    flex: 2 2 4rem;
+}
+
+.sobre .row .content h3 {
+    font-size: 3rem;
+    color: #C28B04;
+}
+
+.sobre .row .content p {
+    font-size: 1.5rem;
+    color: #272014;
+    padding: 10px 0;
+    padding-top: 10px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.sobre .row .content a {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #4b3727;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color .3s ease;
+}
+
+.sobre .row .content a:hover {
+    background-color: #302116;
+}
+
+@media screen and (max-width: 1170px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .sobre .row, .sobre .row .content {
+        display: block;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        place-items: center;
+    }
+
+    .sobre .row .image-conteiner img {
+        width: auto;
+        height: auto;
+        border: 10px solid #fff;
+        box-shadow: 0px 0px 12px 0.1px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    .sobre .row .image-conteiner h3 {
+        font-size: 20px;
+        background: #fff;
+        color: #413022;
+        width: auto;
+        padding: 2px 10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .sobre .row .content h3, p, a {
+        display: block;
+        text-align: center;
+        line-height: 1.2;
+    }
+}

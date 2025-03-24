@@ -1,0 +1,25 @@
+.icons-container {
+    background: #1B140C;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: -40px;
+}
+
+.icons-container .icons {
+    background-color: #fff;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 2rem;
+}
+
+.icons-container i {
+    margin-right: 2rem;
+    font-size: 35px;
+    color: #C28B04;
+    text-shadow: 0px 0px 5px;
+}

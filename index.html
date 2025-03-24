@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+
+    <!--FontAwesome cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>GoMaletas</title>
+</head>
+
+<body>
+    <!--Cabeçalho do site-->
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-business-time" id="navbar_logo"> Go.Maletas</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#catalogue">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <ul id="nav-user">
+                <a href="#login">LOGIN </a>
+                <a href="#cadastro">CADASTRE-SE</a>
+                <i class="fa-regular fa-circle-user" id="nav-user-logo"></i>
+                <i class="fa-solid fa-cart-shopping" id="nav-cart"></i>
+            </ul>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#catalogue">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <ul id="nav-user">
+                <a href="#login">LOGIN </a>
+                <a href="#cadastro">CADASTRE-SE</a>
+            </ul>
+        </div>
+    </header>
+    <!--Final do cabeçalho-->
+
+    <main id="content">
+        <!--seção menu inicial start-->
+        <section class="home" id="home">
+            <div class="shape"></div> <!--Forma atrás da imagem da home-->
+            <div id="cta">
+                <h2 class="onetitle">
+                    O melhor lugar para você
+                </h2>
+                <h1 class="twotitle">
+                    comprar e revender maletas é
+                    <span>AQUI!</span>
+                </h1>
+
+                <div id="cta_button">
+                    <a href="#" class="btn-cta">
+                        Torne-se um revendedor
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="/src/imgs/imgbanner-1.png" alt="">
+            </div>
+
+            <div class="down-arrow">
+                <a href="#catalogue" class="down">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+        <!--seção menu inicial end-->
+
+        <!--seção 'sobre' start-->
+        <section class="sobre" id="about">
+
+            <h1 class="heading"> <span> Sobre </span> Nós </h1>
+
+            <div class="row">
+
+                <div class="image-conteiner">
+                    <img src="/src/imgs/maletasdetravel (1).png" alt="maletas no aeroporto">
+                    <h3>As melhores maletas do mercado</h3>
+                </div>
+
+                <div class="content">
+                    <h3>Porque escolher a GoMaletas?</h3>
+                    <p>Oferecemos maletas de alta qualidade e design moderno para todas as necessidades.
+                        Seja para compra ou revenda, nossa missão é proporcionar praticidade e estilo,
+                        com um atendimento personalizado para você.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+
+            </div>
+
+        </section>
+        <!--seção 'sobre' end-->
+
+        <!--seção 'icons' start-->
+        <section class="icons-container">
+
+            <div class="icons">
+                <i class="fa-solid fa-truck"></i>
+                <div class="info">
+                    <h3>Delivery grátis</h3>
+                    <span>Na 1° compra</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <div class="info">
+                    <h3>10 dias de devolução</h3>
+                    <span>Recebe seu dinheiro de volta</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fa-solid fa-gifts"></i>
+                <div class="info">
+                    <h3>Ofertas & presentes</h3>
+                    <span>Em todos os pedidos</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fa-solid fa-credit-card"></i>
+                <div class="info">
+                    <h3>Pagamentos seguros</h3>
+                    <span>Protegidos por Paypal</span>
+                </div>
+            </div>
+
+        </section>
+        <!--seção 'icons' ends-->
+
+        <!--seção 'catalogue' starts-->
+        <section class="catalogue" id="catalogue">
+
+            <form class="search-bar">
+                <input type="text" placeholder="Pesquisar maletas..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div id="categorias">
+                <ul id="catg_list">
+                    <li class="catg-item">
+                        <a href="#catg1">Maletas Executivas</a>
+                    </li>
+                    <li class="catg-item">
+                        <a href="#catg2">Maletas de Ferramentas</a>
+                    </li>
+                    <li class="catg-item">
+                        <a href="#catg3">Maletas para Maquiagem</a>
+                    </li>
+                    <li class="catg-item">
+                        <a href="#catg5">Maletas Organizadoras</a>
+                    </li>
+                    <li class="catg-item">
+                        <a href="#catg8">Mais +</a>
+                    </li>
+                </ul>
+            </div>
+
+            <h1 class="head">
+                <i class="fa-solid fa-briefcase"> Nossos<span>Produtos</span></i>
+            </h1>
+
+        </section>
+        <!--seção 'catalogue' ends-->
+
+        <!--seção 'products' starts-->
+        <section class="products" id="products">
+            <h1 class="products-title">Mais Vendidos</h1>
+            <div class="products-box">
+
+                <div class="box">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img1.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta OldStyle Castanho</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <span class="discount">-15%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img2.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta de Maquiagens <br>branca</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-5%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img3.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta organizadora rosa <br>+ 1 menor</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+                <!--aquiii-->
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img4.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta estilo Case Preta</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-20%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img5.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta Porta Notebook</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-17%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img7.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta Elegante + Acessórios</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-27%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img8.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta de Ferramentas</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-18%</span>
+                    <div class="image">
+                        <img src="/src/imgs/img9.png" alt="maleta marrom claro">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-cart-shopping"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Maleta Porta Notebook<br>2 abas</h3>
+                        <div class="price"> R$xx,xx <span>R$xx,xx</span> </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <button class="btn-default">
+                    Ver mais Produtos +
+            </button>
+
+        </section>
+        <!--seção 'products' ends-->
+
+        <!--seção 'testimonials' starts-->
+        <section id="testimonials">
+         <div id="testimonials_content">
+            <h2 class="section-title">
+                <span>Avaliações</span> dos Clientes
+            </h2>
+
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="/src/imgs/avatar-ico.png" class="feedback-avatar" alt="avatar" ondragstart="return false;">
+
+                    <div class="feedback-content">
+                        <p>
+                            <strong>Fulano de Tal</strong>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aperiam accusamus nesciunt debitis minima architecto aliquid repellendus aliquam blanditiis sunt culpa rem, iste porro modi optio consequuntur! Molestiae, nulla expedita?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <img src="/src/imgs/avatar-ico.png" class="feedback-avatar" alt="avatar" ondragstart="return false;">
+
+                    <div class="feedback-content">
+                        <p>
+                            <strong>Ciclano de Tal</strong>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio molestiae eos esse, necessitatibus ut nam nemo quia vel, laudantium quam dolor voluptatum. Illo incidunt vitae, culpa laudantium tempore reiciendis alias?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <img src="/src/imgs/avatar-ico.png" class="feedback-avatar" alt="avatar" ondragstart="return false;">
+
+                    <div class="feedback-content">
+                        <p>
+                            <strong>Beltrano de Tal</strong>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam labore incidunt libero officia omnis veniam ea atque velit totam? Quo beatae eius dolore ratione ab nam quasi reiciendis in a?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feedback">
+                    <img src="/src/imgs/avatar-ico.png" class="feedback-avatar" alt="avatar" ondragstart="return false;">
+
+                    <div class="feedback-content">
+                        <p>
+                            <strong>Deltrano de Tal</strong>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos hic quo reprehenderit id! Ducimus maiores expedita laudantium perferendis blanditiis autem? Quia eveniet et alias ipsa officia porro ex in.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-default">
+                Ver mais avaliações +
+            </button>
+         </div>
+        </section>
+        <!--seção 'testimonials' ends-->
+
+        <!--seção 'contact' starts-->
+        <section class="contact" id="contact fade-in">
+            <h2 class="contact-title">Entre em Contato!</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu Email" required>
+                <textarea id="message" placeholder="Deixe sua mensagem" required></textarea>
+                <button class="button-contact" type="submit">Enviar</button>
+            </form>
+        </section>
+        <!--seção 'contact' ends-->
+    </main>
+
+    <footer class="footer">
+        <img src="/src/imgs/wave (2).svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Ana J. Ribeiro
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
